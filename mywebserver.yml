@@ -8,5 +8,9 @@
        state: present
     when: ansible_os_family =="Debian"  
  
-   
+  - name: i want to start webserver on only  ansible ubuntu node
+    service:
+      name: httpd
+      state: started
+    when: ansible _os_family =="Debian"
 
