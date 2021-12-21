@@ -13,3 +13,7 @@
        name: tree 
        state: present 
     
+  - name: install wget on ubuntu machine
+    apt: 
+       name: wget
+       state: present  
