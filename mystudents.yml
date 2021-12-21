@@ -1,0 +1,30 @@
+---
+mystudents:
+- name: anil
+  phoneno: 777777
+  address: 
+    - doorno: 575
+    - streetno: 561
+    - place: hyd
+    - pincode: 500001
+  
+- name: ankit
+  phoneno: 55555
+  adress: hyd
+- address: 
+    - doorno: 585
+    - streetno: 575
+    - place: hyd
+    - pincode: 700001
+  
+
+- name: ramesh
+  phno: 333333
+  address: hyd
+- address: 
+    - doorno: 754
+    - streetno: 725
+    - place: hyd
+    - pincode: 777777
+    
+
