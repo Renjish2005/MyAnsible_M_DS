@@ -16,6 +16,14 @@ mystudents:
     - streetno: 575
     - place: hyd
     - pincode: 700001
+  - name: i want to start webserver on only  ansible ubuntu node
+    service:
+      name: apache2
+      state: started
+    when: ansible _os_family =="Debian"
+
+
+
   
 
 - name: ramesh
