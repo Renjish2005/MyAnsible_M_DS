@@ -8,13 +8,11 @@
 
       tasks: 
       - name: install tree on my ubuntu node
-      apt:
-        name: "{{myvar1}}"
-      - name: i want to display myvar1
         apt:
-        name: "{{myvar1}}"
-      - name: i want to display  myvar1
-         debug: 
-            msg: "{{myvar1}}"
+          name: "{{myvar2}}"
+
+      - name: i want to display myvar2
+        debug: 
+            msg: "{{myvar2}}"
 
 
