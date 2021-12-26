@@ -8,6 +8,6 @@
 
      - name: i want to display my first task result 
        debug: 
-          msg: "{{myresult}}""
+          msg: "{{myresult}}"
 
 
