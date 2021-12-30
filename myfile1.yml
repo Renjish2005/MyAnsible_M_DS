@@ -1,0 +1,6 @@
+--- 
+tasks: 
+    - name:  Create a file on Node side 
+      file: 
+      path: /home/ubuntu/testfile
+      state: touch
