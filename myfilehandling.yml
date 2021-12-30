@@ -10,5 +10,5 @@
 
   - name: i want to copy myindex file into ansible node
     template:
-        src:
+        src: myindex.j2
         dest: /var/www/html/index.html    
